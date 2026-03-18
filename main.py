@@ -3,6 +3,7 @@ import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
+#function for creating billboard playlist
 def create_billboard_playlist():
     date = input("Which year do you want to travel to? Type the date in this format YYYY-MM-DD: ")
     header = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"}
@@ -27,6 +28,7 @@ def create_billboard_playlist():
     sp.playlist_add_items(playlist_id=playlist["id"], items=song_uris)
     print(f"Created Billboard playlist: {playlist['name']}")
 
+#function for creating genre
 def create_genre_playlist():
     genres = {
         "1": "rock",
@@ -83,6 +85,7 @@ def create_genre_playlist():
     else:
         print(f"No songs found for genre: {genre}")
 
+# function for creating activity playlist
 def create_activity_playlist():
     activities = {
         "1": ("workout", "high energy upbeat motivational"),
