@@ -15,7 +15,6 @@
 ## 📈 Detailed Version (2-3 minutes)
 
 ### **Complete Project Explanation**
-
 **The Problem:**
 "Creating good playlists takes time and effort. People want nostalgic playlists from specific time periods, activity-based collections for workouts or studying, or discovery playlists for new genres. Manually searching and adding 50+ songs is tedious, and most playlist generators are generic and don't provide historical or activity-specific curation."
 
